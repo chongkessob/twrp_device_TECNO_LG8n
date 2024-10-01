@@ -1,4 +1,4 @@
-DEVICE_PATH := device/TECNO/TECNO-LG8n
+DEVICE_PATH := device/tecno/LG8n
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -36,10 +36,10 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := TECNO LG8n
+TARGET_OTA_ASSERT_DEVICE := LG8n
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := TECNO-LG8n
+TARGET_BOOTLOADER_BOARD_NAME := LG8n
 TARGET_NO_BOOTLOADER := true
 
 # Platform
@@ -89,7 +89,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := TECNO-LG8n_defconfig
-TARGET_KERNEL_SOURCE := kernel/tecno/TECNO-LG8n
+TARGET_KERNEL_SOURCE := kernel/tecno/LG8n
 
 else
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := erofs
@@ -272,8 +272,8 @@ TW_EXCLUDE_TWRPAPP := true
 TW_EXCLUDE_APEX := true
 
 # Firmware version & Developer Display name
-TW_DEFAULT_DEVICE_NAME := TECNO-LG8n
-TW_DEVICE_VERSION := TECNO-LG8n - chongkessob
+TW_DEFAULT_DEVICE_NAME := LG8n
+TW_DEVICE_VERSION := LG8n - chongkessob
 
 # TWRP Configuration
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zoneNN/temp

@@ -15,13 +15,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from TECNO-LG8n device
-$(call inherit-product, device/tecno/TECNO-LG8n/device.mk)
+$(call inherit-product, device/tecno/LG8n/device.mk)
 
-PRODUCT_DEVICE := TECNO-LG8n
-PRODUCT_NAME := twrp_TECNO-LG8n
+PRODUCT_DEVICE := LG8n
+PRODUCT_NAME := twrp_-LG8n
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO LG8n
-PRODUCT_MANUFACTURER := tecno
+PRODUCT_MANUFACTURER := TECNO
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 

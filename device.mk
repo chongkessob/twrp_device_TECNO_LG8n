@@ -1,4 +1,4 @@
-LOCAL_PATH := device/TECNO/LG8n
+LOCAL_PATH := device/tecno/LG8n
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
